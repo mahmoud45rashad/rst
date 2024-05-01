@@ -1,0 +1,30 @@
+.navbar{
+    background-color: white;
+    color: #af3d57 !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px;
+}
+.navbar-brand img{
+    width: 126px;
+}
+.navbar .nav{
+    margin-left: auto;
+}
+.navbar .nav a{
+    padding: 6px  !important;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #a82d49;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.navbar .nav .link-call{
+    color: #fff;
+    border: solid 1px #a82d49;
+    background-color: #a82d49;
+    width: 140px;
+    text-align: center;
+}
+.navbar .nav .link-call:hover{
+    background-color: #fff;
+    color: #000;
+}

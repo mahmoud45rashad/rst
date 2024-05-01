@@ -1,0 +1,32 @@
+footer {
+    background: #a82d49;
+    padding: 80px 0 0;
+    margin-top: 200px;
+    text-align: center;
+    color: #ffff;
+}
+footer .col-md-12 a{
+    padding: 0 30px 0 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+footer .footer-social a {
+    font-size: 25px;
+    margin-right: 18px;
+    margin-left: 0px;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+}
+footer .footer-social {
+    margin-top: 21px;
+}
+footer .footer-copy{
+    background: #a82d49;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    margin-top: 25px;
+}

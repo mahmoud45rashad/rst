@@ -1,0 +1,527 @@
+.numbers{
+    background-color: #a82d49;
+    color: #fff;
+    padding: 33px;
+}
+.numbers .col-md-3 div{
+    text-align: center;
+
+}
+.numbers .col-md-3 h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about{
+    margin-top: 97px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.about .about-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about .about-text{
+    margin-top: 53px;
+}
+.about .about-text h2{
+    font-size: 32px;
+    line-height: 45px;
+    color: #43121d;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.about .about-text p{
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.about .about-text button{
+    background: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    padding: 12px 52px;
+    font-family: Roboto;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 34px;
+    border-radius: 0;
+}
+
+.about .about-text button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #a82d49;
+    transition: 1s;
+}
+.ingredints{
+    margin-top: 130px;
+}
+.ingredints h2{
+    font-size: 32px;
+    line-height: 45px;
+    color: #43121d;
+    font-weight: 700;
+    margin-top: 45px;
+}
+.ingredints p{
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+.ingredints ul{
+    margin-bottom: 40px;
+}
+.ingredints ul li{
+    padding: 7px 0 8px 0px;
+    position: relative;
+    color: #555;
+    list-style: none;
+    font-size: 17px;
+}
+.ingredints ul li svg{
+    font-size: 25px;
+    color: #a82d49;
+    font-weight: 900;
+    margin-right: 16px;
+}
+.ingredints button{
+    background: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    padding: 12px 35px;
+    font-family: Roboto;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 34px;
+    border-radius: 0;
+}
+
+.ingredints button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #a82d49;
+    transition: 1s;
+}
+.ingredints .img-ingredints img{
+    width: 100%;
+}
+@media (max-width: 767px ){
+    .numbers .col-md-3 div{
+        margin-bottom: 60px;
+    }  
+}
+.paralex{
+    background-image: url(../../assets/1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.paralex h2{
+    color: #a82d49;
+    padding-top: 40px;
+}
+.paralex p{
+    color: #555;
+    padding-top: 20px;
+}
+.paralex .div-watch{
+    margin-top: 55px;
+}
+.paralex .div-watch a{
+    color: #43121d;
+    text-decoration: none;
+    font-size: 17px;
+}
+.paralex .div-watch a:hover{
+    color: #a82d49;
+}
+.blog{
+    margin-top: 130px;
+    text-align: center;
+    padding: 25px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blog h3{
+    color: #43121d;
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700; 
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.1px;
+}
+.blog p{
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    padding: 0 14%;
+}
+.blog .box-item{
+    text-align: left;
+}
+.blog .box-item img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog .box-item h4{
+    color: #43121d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1px;
+    font-size: 18px;
+}
+.blog .box-item p{
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    padding: initial;
+}
+.blog .box-item span{
+    font-weight: bold;
+    color: #a82d49;
+    font-size: 24px;
+}
+
+.blog button{
+    background: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    padding: 12px 35px;
+    font-family: Roboto;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 34px;
+    border-radius: 0;
+    margin-top: 30px;
+}
+
+.blog button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #a82d49;
+    transition: 1s;
+}
+.slider{
+    background-color: #a82d49;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 0px;
+    height: 510px;
+}
+.slider h1{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.1px;
+}
+
+.slider .carousel {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+.carousel-indicators{
+    bottom: -65px !important;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    height: 18px !important;
+    width: 19px !important;
+}
+.slider img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-caption{
+    position: static !important;
+}
+.slider .carousel p{
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #111;
+    padding: 0 21% 20px;
+    letter-spacing: 0;
+}
+.slider .carousel-caption span{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    color: #a82d49;
+}
+.faq{
+    text-align: center;
+}
+.faq h3{
+    color: #43121d;
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    padding: 80px 0;
+}
+.faq .row {
+    text-align: left;
+}
+.faq h4{
+    color: #43121d;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 46px;
+    font-weight: 700;
+    display: flex;
+}
+.faq h4 span{
+    color: #f98169;
+    font-size: 30px;
+    font-family: ubuntu;
+    font-weight: 300;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.parallax-content{
+    background: url(../../assets/030.jpg)  no-repeat center fixed;
+    background-position: 0px 101.106px;
+    padding: 70px 0;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    margin: 100px 0px;
+}
+.parallax-content .overlay{
+    background: #151515;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.parallax-content .container-fluid{
+    position: inherit;
+}
+.parallax-content h4{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 0.2px;
+}
+.parallax-content button{
+    background: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    padding: 12px 35px;
+    font-family: Roboto;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 34px;
+    border-radius: 0;
+    float: left;
+}
+
+.parallax-content button:hover{
+    background-color: #ffffff00;
+    color: #a82d49;
+    border: 3px solid #a82d49;
+    transition: 1s;
+}
+.subscribe{
+    text-align: center;
+}
+.subscribe h1{
+    color: #43121d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1px;
+}
+.subscribe p{
+    color: #555;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.2px;
+    padding: 25px 0 15px;
+}
+.subscribe form{
+    width: 55%;
+    margin: 0px auto;
+}
+.subscribe form input[type="text"]{
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    background: transparent;
+    border: 3px solid #e5e5e5;
+    color: #000;
+    font-weight: 700;
+} 
+
+.subscribe button{
+    background: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    padding: 12px 35px;
+    font-family: Roboto;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 0;
+}
+
+.subscribe button:hover{
+    background-color: #ffffff00;
+    color: #a82d49;
+    border: 3px solid #a82d49;
+    transition: 1s;
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 767px){
+    .blog .box-item{
+        margin-bottom: 36px;
+    }
+    .blog button{
+        margin-top: -4px;
+    }
+    .slider {
+
+        height: 634px;
+    }
+    .subscribe button{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .parallax-content button {
+        margin-top: 31px;
+    }    
+}
+
+@media (max-width:545px){
+    .faq h4 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 466px){
+    .text-header button{
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:392px){
+    .faq h4 {
+        font-size: 10px;
+    }
+    .faq p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 350px){
+    .ingredints ul li {
+        font-size: 15px;
+    }
+    .ingredints ul li svg {
+        font-size: 20px;
+    }
+    .faq h3 {
+        color: #43121d;
+        margin-bottom: 15px;
+        font-size: 19px;
+        line-height: 46px;
+        font-weight: 700;
+        padding: 80px 0;
+    }
+
+    .blog h3 {
+        color: #43121d;
+        margin-bottom: 15px;
+        font-size: 29px;
+        line-height: 46px;
+        font-weight: 700;
+        font-family: 'Quicksand', sans-serif;
+        letter-spacing: 0.1px;
+    }
+    footer .col-md-12 a {
+        padding: 0 16px 0 0;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:313px){
+    .faq h4 {
+        font-size: 8px;
+    }
+
+    .faq p{
+        font-size: 9px;
+    }
+    .ingredints ul li {
+        font-size: 13px;
+    }
+    /* .ingredints ul li svg {
+
+    } */
+}
+@media (max-width:385px){
+    .slider {
+        height: 554px;
+    }
+    .slider .carousel p {
+        font-size: 17px;
+        line-height: 33px;
+        font-weight: 300;
+        color: #111;
+        padding: 0;
+        letter-spacing: 0;
+        width: 100%;
+    }
+}
