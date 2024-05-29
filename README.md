@@ -47,3 +47,10 @@ Restaurant/
 ├── package.json
 └──  README.md
 ```
+
+#Technologies Used
+- React Native: For creating mobile applications.
+- React.js: For creating the web application.
+- Redux: For state management.
+- Redux-Saga: For managing asynchronous operations.
+- Webpack: For bundling the web application.
