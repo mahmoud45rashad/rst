@@ -27,3 +27,23 @@ Main objective of this project was to have a single code base for both
 web and mobile apps with the logic and view separated.
 
 #### Project Structure
+
+```
+Restaurant/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── Home/
+│   ├── Navs/
+│   ├── Footer/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   ├── App.js
+│   ├── index.js
+│   └── routes.js
+├── .gitignore
+├── package.json
+└──  README.md
+```
