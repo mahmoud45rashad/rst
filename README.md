@@ -48,9 +48,11 @@ Restaurant/
 └──  README.md
 ```
 
-#Technologies Used
+# Technologies Used
 - React Native: For creating mobile applications.
 - React.js: For creating the web application.
 - Redux: For state management.
 - Redux-Saga: For managing asynchronous operations.
 - Webpack: For bundling the web application.
+# Thank You!
+We hope you enjoy using Restaurant App!
