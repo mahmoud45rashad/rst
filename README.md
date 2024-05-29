@@ -8,12 +8,6 @@ Restaurant App is a versatile application that allows users to browse menus, pla
 - Backend Server RestaurantApp-Express
 ## Setup
 
-## Prerequisites
-
-- Install and  setup the backend server
- 
-[https://github.com/Codebrahma/RestaurantApp-Express](https://github.com/Codebrahma/RestaurantApp-Express)
-
 ### Installation
 
 - run `npm install` or `yarn install`
